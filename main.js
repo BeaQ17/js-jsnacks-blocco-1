@@ -30,6 +30,7 @@ for (var i = 0; i < 10; i++){
 console.log(sum);
 */
 
+/*
 //SNACK QUATTRO
 //In un array sono contenuti i nomi degli invitati alla festa di Gatsby
 var guests = ["guest1", "guest2", "guest3", "guest4", "guest5"];
@@ -44,6 +45,24 @@ for (var i = 0; i < guests.length; i++){
     if (asker == guests[i]){
         guard = true;
         console.log("Sì");
+        document.getElementById("enter").innerHTML = "Lei può entrare";
+    } else if (asker != guests[i]){
+        console.log("no");
+    }
+    
+}
+*/
+
+//SNACK CINQUE
+//Crea array vuoto
+var numbers = [];
+
+//Chiedi all'utente di inserire un numero per sei volte e inserisci i numeri dispari nell'array
+for (var i = 0; i < 6; i++){
+    var ask_num = Number(prompt("Inserisci un numero:"));
+    if (ask_num % 2 != 0){
+        numbers.push(ask_num)
+        console.log(numbers);
     }
 }
 
