@@ -14,9 +14,9 @@ if (word1.length > word2.length) {
 }
 */
 
+/*
 //SNACK TRE
 //Chiedi per 10 volte all'utente di inserire un numero
-
 var sum = 0;
 var num = Number(prompt("Inserisci un numero:"));
 
@@ -28,3 +28,23 @@ for (var i = 0; i < 10; i++){
 
 //Il software stampa la somma di tutti i numeri inseriti
 console.log(sum);
+*/
+
+//SNACK QUATTRO
+//In un array sono contenuti i nomi degli invitati alla festa di Gatsby
+var guests = ["guest1", "guest2", "guest3", "guest4", "guest5"];
+
+//chiedi all'utente il suo nome 
+var asker = prompt("E lei chi è?");
+
+//e comunicagli se può entrare
+var guard = false;
+
+for (var i = 0; i < guests.length; i++){
+    if (asker == guests[i]){
+        guard = true;
+        console.log("Sì");
+    }
+}
+
+
