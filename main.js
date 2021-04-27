@@ -1,3 +1,4 @@
+/*
 //SNACK DUE
 //Chiedi all'utente di inserire due parole in successione, con due prompt
 var word1 = prompt("Scrivi una parola:");
@@ -11,3 +12,19 @@ if (word1.length > word2.length) {
 } else if (word1.length == word2.length){
     console.log("Le parole hanno lunghezza uguale");
 }
+*/
+
+//SNACK TRE
+//Chiedi per 10 volte all'utente di inserire un numero
+
+var sum = 0;
+var num = Number(prompt("Inserisci un numero:"));
+
+
+for (var i = 0; i < 10; i++){
+    var num_user = Number(prompt("Inserisci un numero:"));
+    sum += num_user; //sum = sum + num_user
+}
+
+//Il software stampa la somma di tutti i numeri inseriti
+console.log(sum);
