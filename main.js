@@ -53,6 +53,7 @@ for (var i = 0; i < guests.length; i++){
 }
 */
 
+/*
 //SNACK CINQUE
 //Crea array vuoto
 var numbers = [];
@@ -65,5 +66,30 @@ for (var i = 0; i < 6; i++){
         console.log(numbers);
     }
 }
+*/
+
+/*
+//SNACK SEI
+//Stampa il cubo dei primi N numeri, dove N è indicato dall'utente
+var num_user = Number(prompt("Scegli un numero:"));
+var i = 0;
+
+while (i < num_user){
+    i++
+    var cube = i ** 3;
+    console.log(cube);
+
+    i > num_user == false;
+}
+*/
+
+
+
+
+//SNACK OTTO
+//Chiedi un numero di 4 cifre all’utente
+var num_user = Number(prompt("Scegli un numero di quattro cifre:"));
+
+
 
 
