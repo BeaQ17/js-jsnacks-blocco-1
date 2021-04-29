@@ -86,10 +86,33 @@ while (i < num_user){
 
 
 
-//SNACK OTTO
+//SNACK OTTO - VERSIONE UNO: SPLIT
 //Chiedi un numero di 4 cifre all’utente
-var num_user = Number(prompt("Scegli un numero di quattro cifre:"));
+var userNum = Number(prompt("Scegli un numero di quattro cifre:"));
+
+//calcola somma di tutte e quattro le cifre
+
+var userNum = "1234";
+var numArray= userNum.split("");
+var sum = 0;
+
+for (var i = 0; i < numArray.length; i++) {
+    var elem = numArray[i];
+    sum += Number(elem);
+}
+
+console.log(sum);
 
 
+//SNACK OTTO - VERSIONE DUE: STRINGA
+//Chiedi un numero di 4 cifre all’utente
 
+//calcola somma di tutte e quattro le cifre
+var sum2 = 0;
 
+for (var i = 0; i < userNum.length; i++) {
+    var elem = userNum[i];
+    sum2 += Number(elem);
+}
+
+console.log(sum2);
